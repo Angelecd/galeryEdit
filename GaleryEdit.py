@@ -6,8 +6,9 @@ from tkinter import filedialog, messagebox
 class ImageGalleryApp:
     def __init__(self, root):
         self.root = root
-        self.current_image_index = 0
-        self.images = []
+        self.current_image_index = 0  
+        
+     
         self.current_directory = ""
         self.current_image_label = None
 
